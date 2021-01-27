@@ -2,9 +2,9 @@ using System;
 
 namespace ReturnValuesFromMethods
 {
-    public class Example1
+    public class Example3
     {
-        public Example1()
+        public Example3()
         {
             Run();
         }
@@ -12,18 +12,18 @@ namespace ReturnValuesFromMethods
         private void Run()
         {
             Console.WriteLine("***************************");
-            Console.WriteLine("         EXAMPLE 1         ");
+            Console.WriteLine("         EXAMPLE 3         ");
             Console.WriteLine("***************************");
 
-            int sum = Sum(1, 2); // "Magic numbers" -> bad method
+            var numberOne = 1;
+            var numberTwo = 2;
             
-            Console.WriteLine("Sum of 1 and 2 is " + sum);
+            Console.WriteLine("Sum of " + numberOne + " and " + numberTwo + " is " + Sum(numberOne, numberTwo));
         }
 
         private int Sum(int numberOne, int numberTwo)
         {
-            int sum = numberOne + numberTwo;
-            return sum;
+            return numberOne + numberTwo;
         }
     }
 }

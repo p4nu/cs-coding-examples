@@ -6,6 +6,9 @@ namespace ReturnValuesFromMethods
         public static void Main(string[] args)
         {
             new Example1();
+            new Example2();
+            new Example3();
+            new Example4();
         }
     }
 }
