@@ -17,7 +17,7 @@ namespace ReturnValuesFromMethods
 
             var numberOne = 1;
             var numberTwo = 2;
-            
+
             Console.WriteLine("Sum of " + numberOne + " and " + numberTwo + " is " + Sum(numberOne, numberTwo));
         }
 

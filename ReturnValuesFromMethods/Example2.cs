@@ -25,8 +25,7 @@ namespace ReturnValuesFromMethods
 
         private int Sum(int numberOne, int numberTwo)
         {
-            int sum = numberOne + numberTwo;
-            return sum;
+            return numberOne + numberTwo;
         }
     }
 }
